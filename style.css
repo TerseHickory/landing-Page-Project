@@ -1,0 +1,205 @@
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.logo img {
+    height: auto;
+    width: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+p {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.links {
+    padding-inline: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.logo {
+    padding-inline: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.block1 {
+    background-color: #1F2937;
+    margin-top: 78px;
+    padding: 30px;
+    padding-inline: 400px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.right img {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.left .title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.left .text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    border: 0px;
+    height: 30px;
+    width: 100px;
+    color: #E5E7EB;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.block2 {
+    padding: 30px;
+    padding-inline: 400px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.block2 .title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.block2 .container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.movie img {
+    height: auto;
+    width: 200px;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+}
+
+.movie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 300px;
+    font-size: 18px;
+}
+
+.block3 {
+    background-color: #E5E7EB;
+    padding: 30px;
+    padding-inline: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.block3 .container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.block3 .container .text{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.block3 .container .quote{
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.block4 {
+    padding: 30px;
+    padding-inline: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.block4 .container {
+    background-color: #3882F6;
+    width: 600px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-inline: 100px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block4 .container .sign-up {
+    border: 2px solid #F9FAF8;
+}
+
+.block4 .container .all-text .text2{
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+.block4 .container .all-text .text{
+    font-weight: 800;
+    color: #E5E7EB;
+    font-size: 18px;
+}
